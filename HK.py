@@ -64,7 +64,7 @@ connections = [('Au', 'Bv'), ('Bu', 'Cv'), ('Cu', 'Dv'),
 
 U = ('Au', 'Bu', 'Cu', 'Du', 'Eu', 'Fu')
 V = ('Av', 'Bv', 'Cv', 'Dv', 'Ev', 'Fv')
-
+print(connections)
 g = Graph(connections)
 HopK(U, V, g)
 pretty_print = pprint.PrettyPrinter()
